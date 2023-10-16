@@ -8,7 +8,7 @@ public class homework9 {
         System.out.println(hiddenNumber);  // Загадане число
         Scanner scanner = new Scanner(System.in);
         for (int attempt = 1; attempt < 4; attempt++) {
-            System.out.println("Введіть число від 0 до 10. Спроба " + attempt);
+            System.out.println("Введіть число від 0 до 10 включно. Спроба " + attempt);
             int number = scanner.nextInt();
             if (number == hiddenNumber) {
                 System.out.println("Вітаю ви перемогли! Загадане число було: " + hiddenNumber);
