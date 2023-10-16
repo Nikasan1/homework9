@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class homework9 {
     public static void main(String[] args) {
         Random random = new Random();
-        int hiddenNumber = random.nextInt(11);
+        int hiddenNumber = random.nextInt(11); // Якщо в завданні від 0 до 10 включно
         System.out.println(hiddenNumber);  // Загадане число
         Scanner scanner = new Scanner(System.in);
         for (int attempt = 1; attempt < 4; attempt++) {
